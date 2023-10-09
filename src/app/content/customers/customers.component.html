@@ -1,0 +1,22 @@
+<div>
+    <table class="table table-sm table-striped">
+        <thead>
+            <th>ID</th>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Sales</th>
+            <th>Active</th>
+            <th>Actions</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let c of Cs">
+                <td>{{c.id}}</td>
+                <td>{{c.code}}</td>
+                <td>{{c.name}}</td>
+                <td>{{c.sales | currency}}</td>
+                <td>{{c.active? "Yes": "No"}}</td>
+                <td>TODO</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
