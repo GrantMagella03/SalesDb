@@ -24,7 +24,7 @@ export class MenuComponent {
     },
     {
       display: "Test",
-      route: "XXX",
+      route: "404",
       color: "silver"
     }
   ];
