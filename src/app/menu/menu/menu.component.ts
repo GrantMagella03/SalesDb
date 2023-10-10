@@ -8,23 +8,23 @@ import { Component } from '@angular/core';
 export class MenuComponent {
   menus = [
     {
-      display: "Customers",
-      route: "",
+      display: "Home",
+      route: "home",
       color: "silver"
     }, 
     {
-      display: "Test",
-      route: "",
+      display: "About",
+      route: "about",
+      color: "silver"
+    },
+    {
+      display: "Customers",
+      route: "customers",
       color: "silver"
     },
     {
       display: "Test",
-      route: "",
-      color: "silver"
-    },
-    {
-      display: "Test",
-      route: "",
+      route: "XXX",
       color: "silver"
     }
   ];
